@@ -19,6 +19,7 @@ const DashBoard = () => {
           </div>
 
           <div className="dri-car-info1">
+
             <div className="dri-car-header">
               <img
                 src="/images/pop car2.png"
@@ -58,7 +59,7 @@ const DashBoard = () => {
                   </div>
                 </div>
               </div>
-              <hr />
+              
 
               {/* Drop-Off Section */}
               <div className="dri-dashboard-section1">
@@ -83,7 +84,7 @@ const DashBoard = () => {
                   </div>
                 </div>
               </div>
-              <hr />
+              
             </div>
 
 

@@ -1,11 +1,11 @@
 import React from 'react'
+
 import "../css/bookingSection.css"
 const BookingSection = () => {
   return (
     
     
   <div className="booking-form">
-  {/* Pick-Up Section */}
   <div className="booking-section">
     <div className="section-header">
       <input type="radio" name="type" checked />
@@ -29,12 +29,10 @@ const BookingSection = () => {
     </div>
   </div>
 
-  {/* Switch Button */}
   <div className="switch-button">
     <button>↑↓</button>
   </div>
 
-  {/* Drop-Off Section */}
   <div className="booking-section2">
     <div className="section-header">
       <input type="radio" name="type" />

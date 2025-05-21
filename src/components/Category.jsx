@@ -116,7 +116,6 @@ image: "/images/pop car1.png",
   <div className="cat-card">
     <div className="rowcar-3">
       
-      {/* Like Icon in Top-Right */}
       <div className="like-icon">
         <i className={`ri-heart-3-fill ${car.liked ? 'liked' : ''}`}></i>
       </div>

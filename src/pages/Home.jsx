@@ -1,5 +1,7 @@
-import React from "react";
+import React from 'react'
+
 import "../css/Home.css";
+
 import BookingSection from "./BookingSection";
 import PopularCars from "../components/PopularCars";
 import Footer from "./Footer";
@@ -7,7 +9,8 @@ import Footer from "./Footer";
 const Home = () => {
   return (
 
-    <div className="car-rental-container">
+    <div className="
+    ">
       <div className="section">
         <div className="card ">
           <h2>The Best Platform <br /> for Car Rental</h2>

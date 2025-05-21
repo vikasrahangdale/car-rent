@@ -5,7 +5,6 @@
   flex-direction: column;
   padding: 1.5rem;
   font-family: 'Segoe UI', sans-serif;
-  background-color: hsl(210, 25%, 98%);
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
@@ -278,8 +277,8 @@ padding-top: 20px;
 
 @media screen and (max-width: 1200px) {
   .show-details-cars {
-    width: 90vw;
-    margin-left: auto;
+    width: 100vw;
+    margin-left: -23px;
     margin-right: auto;
     margin-top: -200px;
   }
@@ -295,7 +294,7 @@ padding-top: 20px;
     width: 90%;
     margin-bottom: 1.5rem;
   }
-
+ 
 
   .reviews-section {
     width: 90vw;
@@ -337,10 +336,11 @@ padding-top: 20px;
 @media screen and (max-width: 768px) {
   .left-section h2 {
     font-size: 24px;
+    font-weight: 600;
   }
 
   .left-section p {
-    font-size: 14px;
+    font-size: 12px;
     width: auto;
   }
 
@@ -358,11 +358,11 @@ padding-top: 20px;
   }
   
   .right-section h3{
-    margin-left: 5px;
+    margin-left: 30px;
   }
 
   .rating{
-    margin-left: 5px;
+    margin-left: 30px;
   }
 
   .description {
@@ -372,22 +372,23 @@ font-weight: 400;
 line-height: 200%; /* 24px */
 letter-spacing: -0.24px;
 width: 292px;
-margin-left: 5px;
+margin-left: 30px;
   }
 
   .specs {
     color: #000;
-    margin-left: 9px;
+    margin-left: 30px;
   }
 
   .price-section{
     display: flex;
+    margin-left: 30px;
   }
 
   .rent-button1{
     display: flex;
-width: 10px;
-height: 56px;
+width: 6px;
+height: 45px;
 justify-content: center;
 align-items: center;
 gap: 8px;

@@ -200,7 +200,6 @@ background: var(--Primary-500, #3563E9);
   padding: 32px;
   border-radius: 16px;
   gap: 32px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
   max-width: 100%;
   overflow-x: hidden;
   flex-direction: row; /* Default desktop layout */
@@ -211,7 +210,6 @@ background: var(--Primary-500, #3563E9);
   background-color: white;
   padding: 24px;
   border-radius: 16px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
   flex: 1;
   min-width: 327px;
   height: 127px;
@@ -279,23 +277,26 @@ background: var(--Primary-500, #3563E9);
   border-radius: 12px;
   padding: 12px;
   cursor: pointer;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Responsive Layout */
 @media (max-width: 768px) {
+
+
+
   .cat-booking-form {
     flex-direction: column;
     align-items: center;
     gap: 16px;
     margin-left: -70px;
+    margin-top: -60px;
   }
 
   .cat-booking-section1,
   .cat-booking-section2 {
     width: 100%;
     margin-left: -80px;
-    width: 327px;
+    width: 370px;
 height: 120px;
   }
 
@@ -336,7 +337,7 @@ height: 120px;
 @media (max-width: 1000px) {
   .cat-container {
     grid-template-columns: repeat(2, 1fr);
-    height: 140vh;
+    height: 90vh;
     margin-left: 470px;
    
   }
@@ -354,8 +355,8 @@ height: 120px;
 
   .cat-card {
   
-    width: 327px;
-    margin-left: -650px;
+    width: 340px;
+    margin-left: -660px;
     height: 240px;
   }
 

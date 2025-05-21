@@ -9,18 +9,15 @@ html,body{
     width: 100%;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Segoe UI', sans-serif;
-}
+
 
 .car-rental-container {
   padding: 25px;
   max-width: 100%;
   overflow-x: hidden;
-  background-color: #f9fafb;
+ 
+   
+    background-color: #f9fafb;
 }
 
 .section {
@@ -46,7 +43,6 @@ html,body{
   justify-content: center;
   color: white;
   overflow: hidden;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 }
 .card2 {
   max-width: 100%;
@@ -63,7 +59,6 @@ html,body{
   justify-content: center;
   color: white;
   overflow: hidden;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 }
 
 .card-blue {
@@ -153,8 +148,11 @@ html,body{
 /* For tablets */
 @media (max-width: 768px) {
     .card {
-       width: 360px;
+       width: 400px;
 height: 232px;
+    }
+    .car-rental-container{
+      width: 400px;
     }
     .card h2{
       padding-top: 45px;

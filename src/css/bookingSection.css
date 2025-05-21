@@ -4,7 +4,8 @@
   align-items: flex-start;
   justify-content: center;
   flex-wrap: wrap;
-  background-color: #f9fafb;
+    background-color: #f9fafb;
+
   padding: 32px;
   border-radius: 16px;
   gap: 32px;
@@ -81,7 +82,6 @@
   background-color: white;
 }
 
-/* Switch Button */
 .switch-button {
   display: flex;
   align-items: center;
@@ -105,7 +105,6 @@
 @media (max-width: 768px) {
      .booking-section{
     width: 100vh;
-    
   }
 
   
@@ -132,6 +131,7 @@
   }
 
   .booking-section2{
+    width: 50vh;
     margin-top: -40px;
   }
 
