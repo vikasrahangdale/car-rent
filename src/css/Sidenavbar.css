@@ -1,0 +1,102 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100vh;
+  width: 100vw;
+}
+
+
+
+
+
+.category-page {
+  display: flex;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #597eb6;
+  padding: 20px;
+}
+
+/* Side Navbar Styling */
+.side-navbar {
+  width: 280px;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  position: sticky;
+  top: 20px;
+  margin-left: 10px;  
+}
+
+/* Each Filter Group */
+.filter-section {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.filter-group {
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 15px;
+}
+
+.filter-group:last-child {
+  border-bottom: none;
+}
+
+.filter-group h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #333;
+  
+}
+
+/* Checkboxes and Labels */
+.filter-group label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 15px;
+  color: #373d46;
+  cursor: pointer;
+  font-weight: 600;
+  
+}
+
+.filter-group input[type="checkbox"] {
+  margin-right: 10px;
+  accent-color: #4CAF50;
+}
+
+/* Price Filter */
+.filter-group input[type="range"] {
+  width: 100%;
+  margin-top: 10px;
+  accent-color: #4CAF50;
+}
+
+.filter-group p {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #444;
+}
+@media (max-width: 768px) {
+  .category-page {
+    flex-direction: column;
+  }
+
+  .side-navbar {
+    width: 100%;
+    height: 270%;
+    position: static;
+    margin-bottom: 20px;
+    display: none;
+  }
+}
+
+
+

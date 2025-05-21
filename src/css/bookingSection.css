@@ -1,0 +1,141 @@
+
+.booking-form {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #f9fafb;
+  padding: 32px;
+  border-radius: 16px;
+  gap: 32px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+
+.booking-section {
+  background-color: white;
+  padding: 24px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  flex: 1;
+  min-width: 327px;
+  height: 127px;
+}
+.booking-section2 {
+  background-color: white;
+  padding: 24px;
+  border-radius: 16px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  flex: 1;
+  min-width: 327px;
+  height: 127px;
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.section-header h2 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #111827;
+}
+.input-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+
+.input-group {
+  flex: 1;
+  min-width: 0;
+}
+
+.input-group label {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1f2937;
+  margin-left: 18px;
+  margin-bottom: 20px;
+
+}
+
+.input-group select,
+.input-group input {
+  padding: 8px 12px;
+  margin-top: -10px;
+  
+
+  border-radius: 8px;
+  outline: none;
+  font-weight: 400;
+  font-size: 14px;
+  color: #6b7280;
+  background-color: white;
+}
+
+/* Switch Button */
+.switch-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+
+}
+
+.switch-button button {
+  background-color: hsl(217, 77%, 54%);
+  color: white;
+  font-size: 20px;
+  margin-top: 50px;
+  border: none;
+  border-radius: 12px;
+  padding: 12px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+     .booking-section{
+    width: 100vh;
+    
+  }
+
+  
+  .input-group label {
+    font-size: 12px;
+    margin-left: 10px;
+    font-weight: 650;
+  }
+
+   .input-group select,
+  .input-group input {
+    font-size: 13px;
+    padding: 8px;
+    outline: none;
+    width: 100px;
+  }
+
+
+  .switch-button button {
+    font-size: 16px;
+    padding: 20px;
+    margin-top: -40px;
+    z-index: 99;
+  }
+
+  .booking-section2{
+    margin-top: -40px;
+  }
+
+   .input-group {
+    width: 50%; 
+  }
+}

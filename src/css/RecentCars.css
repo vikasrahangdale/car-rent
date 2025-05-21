@@ -1,0 +1,214 @@
+/* RecentCars.css */
+
+.rc-container {
+  width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f9f9f9;
+  margin-left: 300px;
+  margin-top: 350px;
+  border-radius: 10px;
+}
+
+.rc-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.rc-header h2 {
+width: 200px;
+height: 24px;
+font-weight: 600;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 24px */
+letter-spacing: -0.32px;
+color: #90A3BF;
+margin-left: 30px;
+margin-top: 20px;
+
+}
+
+.rc-header a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+  margin-right: 40px;
+}
+
+
+
+.rc-card-row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+ 
+}
+
+.rc-car-card {
+  background: #fff;
+  border-radius: 10px;
+width: 317px;
+height: 370px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease;
+  cursor: pointer;
+  margin-left: 25px;
+}
+
+
+
+.rc-car-img {
+ width: 264px;
+height: 66px;
+  object-fit: contain;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  margin-top: 50px;
+}
+
+.rc-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+ 
+     width: 290px;
+height: 24px;
+color: var(--Secondary-500, #1A202C);
+
+
+font-family: "Plus Jakarta Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 30px */
+letter-spacing: -0.6px;
+
+}
+
+.rc-top h3 {
+  
+  font-size: 1.3rem;
+  color: #222;
+  margin: 0;
+}
+
+.rc-fav {
+  font-size: 1.4rem;
+  color: #bbb;
+  user-select: none;
+  transition: color 0.3s ease;
+  margin-left: 130px;
+ 
+}
+
+.rc-fav.rc-red {
+  color: #e74c3c; /* red heart */
+}
+
+.rc-type {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 10px;
+  font-weight: 500;
+   width: 128px;
+height: 20px;
+color: var(--Secondary-300, #90A3BF);
+
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 20%; /* 21px */
+letter-spacing: -0.28px;
+}
+
+.rc-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  color: #555;
+ 
+width: 250px;
+height: 100px;
+font-weight: 600;
+color: #90A3BF;
+margin-top: 50px;
+}
+
+.rc-info span {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.rc-price-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -20px;
+  font-weight: 600;
+  color: #1A202C;
+}
+
+.rc-price-section h4 {
+  font-size: 1.2rem;
+  color: #222;
+  margin: 0;
+}
+
+.rc-discount {
+  text-decoration: line-through;
+  color: #999;
+  font-size: 0.9rem;
+  margin-left: 8px;
+}
+
+.rc-rent-btn {
+  background-color: #007bff;
+  border: none;
+  padding: 8px 16px;
+  color: white;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+}
+
+.rc-rent-btn:hover {
+  background-color: #0056b3;
+}
+
+@media screen and (max-width: 768px) {
+  .rc-container {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    padding: 10px;
+  }
+
+  .rc-car-card {
+    min-width: 250px;
+  }
+  .rc-header a{
+    width: 60px;
+    margin-top: 20px;
+  }
+  .rc-fav{
+    margin-right: 30px;
+  }
+  .rc-top h3{
+    width: 50%;
+  }
+  .rc-type{
+    margin-top: 13px;
+  }
+}
