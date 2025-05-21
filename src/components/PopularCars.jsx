@@ -177,6 +177,7 @@ const PopularCars = () => {
       <h5>View All</h5>
       <CarSection title="Popular Cars" cars={popularCars} className='popular' />
     <h5>View All</h5>
+
      <  CarSection title="Recommended Cars" cars={recommendedCars} className="recommended-section" />
      <button className="showcar">Show More Car</button>
     </div>

@@ -4,10 +4,9 @@
   align-items: flex-start;
   justify-content: center;
   flex-wrap: wrap;
-    background-color: #f9fafb;
-
+  background: #F6F7F9;
+  border-radius: 10px;
   padding: 32px;
-  border-radius: 16px;
   gap: 32px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
   max-width: 100%;
@@ -106,18 +105,22 @@
      .booking-section{
     width: 100vh;
   }
+  .section-header h2{
+    font-size: 16px;
+    color: #1A202C;
+  }
 
   
   .input-group label {
-    font-size: 12px;
+    font-size: 16px;
     margin-left: 10px;
     font-weight: 650;
   }
 
    .input-group select,
   .input-group input {
-    font-size: 13px;
-    padding: 8px;
+    font-size: 12px;
+    padding: 0px;
     outline: none;
     width: 100px;
   }

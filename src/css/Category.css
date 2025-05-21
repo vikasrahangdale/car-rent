@@ -1,17 +1,20 @@
-/* Category.css */
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
 }
 
-html,body{
-    height: 100%;
-    width: 100%;
+html,
+body {
+  height: auto;
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
 }
+
 .category-page1 {
   display: flex;
-  height: 100%;
+  min-height: 100vh;
   overflow-x: hidden;
   background-color: #f9fafb;
 }
@@ -23,9 +26,8 @@ html,body{
   flex-direction: column;
 }
 
-/* --- LIKE ICON --- */
 .like-icon {
-margin-left: 250px;
+  margin-left: 250px;
   z-index: 10;
   background-color: white;
   cursor: pointer;
@@ -42,9 +44,6 @@ margin-left: 250px;
   color: red;
 }
 
-
-
-/* Grid with 3 fixed columns */
 .cat-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -70,65 +69,58 @@ margin-left: 250px;
 }
 
 .cat-card-title {
- display: flex;
-width: 228px;
-height: 24px;
-color: var(--Secondary-500, #1A202C);
-
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-line-height: 150%; /* 30px */
-letter-spacing: -0.6px;
-margin-top: -30px;
+  display: flex;
+  width: 228px;
+  height: 24px;
+  color: var(--Secondary-500, #1a202c);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: -0.6px;
+  margin-top: -30px;
 }
 
 .cat-card-type {
   font-size: 1.2rem;
   font-weight: 700;
   margin-bottom: 0.25rem;
-  color: #90A3BF;
+  color: #90a3bf;
   display: flex;
-width: 128px;
-height: 20px;
-font-size: 14px;
-font-style: normal;
-font-weight: 700;
-line-height: 200%; /* 21px */
-letter-spacing: -0.28px;
+  width: 128px;
+  height: 20px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 200%;
+  letter-spacing: -0.28px;
 }
 
-/* Placeholder for image */
 .cat-card-img {
-width: 272px;
-height: 84px;
- 
+  width: 272px;
+  height: 84px;
   border-radius: 10px;
   margin: 2rem 0;
   margin-top: 5px;
-  
 }
 
-/* Specs */
 .cat-card-specs {
-  color: var(--Secondary-300, #90A3BF);
-
-font-family: "Plus Jakarta Sans";
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: 150%; 
-letter-spacing: -0.28px;
-display:    flex;
-width: 308px;
-height: 24px;
-justify-content: center;
-gap: 50px;
-margin-top: 130px;
-margin-left: -18px;
+  color: var(--Secondary-300, #90a3bf);
+  font-family: "Plus Jakarta Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: -0.28px;
+  display: flex;
+  width: 308px;
+  height: 24px;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 130px;
+  margin-left: -18px;
 }
 
-/* Price */
 .cat-card-price {
   display: flex;
   justify-content: space-between;
@@ -138,13 +130,13 @@ margin-left: -18px;
 }
 
 .cat-card-cost {
-  color: var(--Secondary-500, #1A202C);
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+  color: var(--Secondary-500, #1a202c);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
   width: 120px;
-height: 44px;
+  height: 44px;
 }
 
 .cat-card-discount {
@@ -152,13 +144,11 @@ height: 44px;
   color: #ccc;
   text-decoration: line-through;
   display: none;
-  
 }
 
-/* Button */
 .cat-card-btn {
   padding: 0px 20px;
-  background-color: #3563E9;
+  background-color: #3563e9;
   color: white;
   border: none;
   border-radius: 5px;
@@ -168,7 +158,7 @@ height: 44px;
   margin-left: -10px;
   font-size: 16px;
   width: 116px;
-height: 44px;
+  height: 44px;
 }
 
 .cat-card-btn:hover {
@@ -178,8 +168,8 @@ height: 44px;
 .cat-show-more {
   text-align: center;
   width: 156px;
-height: 55px;
-padding: 13px 20px;
+  height: 55px;
+  padding: 13px 20px;
   border-radius: 8px;
   color: #fff;
   cursor: pointer;
@@ -187,9 +177,8 @@ padding: 13px 20px;
   margin-right: -43rem;
   margin-top: 3rem;
   border-radius: 4px;
-background: var(--Primary-500, #3563E9);
+  background: var(--Primary-500, #3563e9);
 }
-
 
 .cat-booking-form {
   display: flex;
@@ -202,7 +191,7 @@ background: var(--Primary-500, #3563E9);
   gap: 32px;
   max-width: 100%;
   overflow-x: hidden;
-  flex-direction: row; /* Default desktop layout */
+  flex-direction: row;
 }
 
 .cat-booking-section1,
@@ -261,7 +250,6 @@ background: var(--Primary-500, #3563E9);
   background-color: white;
 }
 
-/* Switch Button */
 .cat-switch-button {
   display: flex;
   align-items: center;
@@ -279,11 +267,7 @@ background: var(--Primary-500, #3563E9);
   cursor: pointer;
 }
 
-/* Responsive Layout */
 @media (max-width: 768px) {
-
-
-
   .cat-booking-form {
     flex-direction: column;
     align-items: center;
@@ -294,10 +278,9 @@ background: var(--Primary-500, #3563E9);
 
   .cat-booking-section1,
   .cat-booking-section2 {
-    width: 100%;
-    margin-left: -80px;
     width: 370px;
-height: 120px;
+    height: 120px;
+    margin-left: -80px;
   }
 
   .cat-switch-button {
@@ -314,9 +297,11 @@ height: 120px;
   }
 
   .cat-input-group label {
-    font-size: 12px;
+    font-size: 16px;
     margin-left: 10px;
-    font-weight: 650;
+    font-weight: 700;
+    width: 76px;
+    height: 20px;
   }
 
   .cat-input-group select,
@@ -332,19 +317,13 @@ height: 120px;
   }
 }
 
-
-/* Responsive: only 1 column on very small screens */
 @media (max-width: 1000px) {
   .cat-container {
     grid-template-columns: repeat(2, 1fr);
-    height: 90vh;
+    height: auto;
     margin-left: 470px;
-   
   }
 }
-
-
-
 
 @media (max-width: 600px) {
   .cat-container {
@@ -354,7 +333,6 @@ height: 120px;
   }
 
   .cat-card {
-  
     width: 340px;
     margin-left: -660px;
     height: 240px;
@@ -369,16 +347,34 @@ height: 120px;
     flex-direction: column;
     align-items: flex-start;
     gap: 0.3rem;
+    font-size: 12px;
+    font-weight: 500;
     margin-top: -100px;
     margin-left: 200px;
   }
 
   .cat-card-title {
-    font-size: 1.1rem;
-  }
-  .cat-card-price{
-margin-top: 60px;
+    font-size: 16px;
+    font-weight: 600;
   }
 
+  .cat-card-price {
+    margin-top: 60px;
+  }
 
+  .cat-card-type {
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .cat-card-cost {
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .cat-card-btn {
+    font-size: 12px;
+    width: 100px;
+    height: 36px;
+  }
 }

@@ -13,9 +13,9 @@ const Home = () => {
     ">
       <div className="section">
         <div className="card ">
-          <h2>The Best Platform <br /> for Car Rental</h2>
+          <h2>The Best Platform  for Car Rental</h2>
           <p>
-            Ease of doing a car rental safely and <br /> reliably. Of course at a low price.
+            Ease of doing a car rental safely and reliably. Of course at a low price.
           </p>
           <button className="rental-btn">Rental Car</button>
           <img src="/images/image 7.png" alt="White Car" />

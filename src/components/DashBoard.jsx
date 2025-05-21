@@ -11,7 +11,9 @@ const DashBoard = () => {
 
       <div className="dri-left-section2">
         <div className="dri-details-rental2">
+            <h1>Detail Rental</h1>
           <div className="dri-map-placeholder">
+          
             <img
               src="https://i.pinimg.com/736x/37/b2/f2/37b2f293c0b851bfaf332c7b4ef072d7.jpg"
               alt=""
