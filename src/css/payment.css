@@ -89,7 +89,6 @@ body {
 .payment-input-group input {
   border-radius: 10px;
   background: #f6f7f9;
-  border: 1px solid #ddd;
 }
 
 .payment-input2 {
@@ -98,7 +97,8 @@ body {
   font-size: 14px;
   width: 95%;
   height: 50px;
-  border: 1px solid #ddd;
+  color: #90A3BF;
+  font-weight: 500;
   border-radius: 10px;
   border-radius: 10px;
   background: #f6f7f9;
@@ -138,14 +138,15 @@ body {
 
 .payment-input-drop {
   padding: 10px;
-  border: 1px solid #ddd;
   border-radius: 6px;
   font-size: 14px;
   font-weight: 500;
   width: 88%;
   height: 50px;
+  color: #90A3BF;
   border-radius: 10px;
   background: #f6f7f9;
+  
   margin-top: 20px;
   margin-left: 20px;
 }
@@ -173,14 +174,14 @@ body {
   padding: 12px;
   border-radius: 6px;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 500;
   width: 88%;
   height: 50px;
-  border: 1px solid #ddd;
   margin-top: 10px;
   margin-left: 25px;
   border-radius: 10px;
   background: #f6f7f9;
+  color: #90A3BF;
 }
 .payment-label-pick {
   margin-left: 30px;
@@ -310,7 +311,7 @@ body {
 
 .payment-visa-container {
   width: 860px;
-  min-height: 596px;
+height: 750px;
   margin-top: 70px;
   margin-left: 0px;
   padding: 24px;
@@ -387,7 +388,7 @@ body {
 }
 
 .payment-logo1 {
-  height: 40px;
+  height: 30px;
 }
 
 .payment-credit-img {
@@ -442,21 +443,16 @@ body {
 }
 
 .payment-input-row {
-  display: flex;
-  gap: 30px;
-  width: 800px;
+ 
+
+  gap: 10px;
+  height: 380px;
+  width: 820px;
+  overflow: hidden;
   margin-top: 1px;
-  height: 80px;
   font-weight: 500;
 }
-.payment-input-row1 {
-  display: flex;
-  gap: 30px;
-  width: 800px;
-  margin-top: 1px;
-  height: 80px;
-  font-weight: 500;
-}
+
 
 .payment-input-row > div {
   flex: 1;
@@ -477,11 +473,16 @@ body {
 
 .payment-credit-form input {
   padding: 10px;
-  width: 362px;
+  width: 810px;
   height: 60px;
   border-radius: 10px;
   background: #f6f7f9;
   font-size: 14px;
+  margin-top: 5px;
+}
+
+.payment-input-row label{
+  margin-left: 4px;
 }
 
 .confirm-container {
@@ -496,6 +497,7 @@ body {
 
 .confirm-h2 {
   margin-bottom: 10px;
+  margin-left: 20px;
   width: 200px;
   height: 24px;
   font-size: 20px;
@@ -515,6 +517,7 @@ body {
   font-weight: 500;
   height: 20px;
   color: #90a3bf;
+  margin-left: 20px;
 }
 
 .confirm-checkbox-group {
@@ -527,10 +530,11 @@ body {
 .confirm-checkbox-item {
   font-size: 15px;
   color: #444;
-  width: 804px;
+  width: 700px;
   height: 56px;
   flex-shrink: 0;
   padding: 12px 8px;
+  margin-left: 10px;
   border-radius: 10px;
   background: #f6f7f9;
   color: #1f2544;
@@ -550,6 +554,7 @@ body {
   border-radius: 6px;
   cursor: pointer;
   font-size: 16px;
+  margin-left: 10px;
 }
 
 .confirm-rent-button:hover {
@@ -561,6 +566,7 @@ body {
   align-items: flex-start;
   margin-top: 30px;
   gap: 10px;
+  margin-left: 10px;
 }
 
 .confirm-safe-text {
@@ -597,7 +603,7 @@ body {
     margin-top: 10px;
     padding: 20px;
     width: 400px;
-    height: 903px;
+    height: 950px;
   }
   .payment-inner-container {
     flex-direction: column;
@@ -624,11 +630,24 @@ body {
   }
 
   .payment-promo input {
-    padding: 10px 5px;
+    padding: 5px 0px;
     width: 250px;
     height: 50px;
-    padding-left: 5px;
+    padding-left: 10px;
     flex-shrink: 0;
+  }
+
+  .payment-total-price{
+    margin-top: 30px;
+  }
+
+  .payment-apply-btn {
+    height: 50px;
+    padding: auto;
+    width: 250px;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 1px;
   }
 
   .payment-form-section {
@@ -639,25 +658,24 @@ body {
   }
 
   .payment-summary-card {
-    margin-left: -20px;
+   
+    margin-left: -7px;
     margin-top: 20px;
-
     flex-shrink: 0;
   }
-
   .payment-car-name {
-    font-size: 20px;
+    color: var(--Secondary-500, #1A202C);
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 140%; /* 28px */
   }
 
-  .payment-credit-img {
-    margin-left: -90px;
-    margin-top: 40px;
-    text-align: center;
-  }
+ 
 
   .payment-summary-section {
-    width: 327px;
-    height: 424px;
+  width: 327px;
+height: 424px;
     margin-top: -50px;
     margin-left: -30px;
   }
@@ -669,6 +687,7 @@ body {
 
   .payment-input-group {
     width: 190px;
+   
     margin-right: -20px;
   }
 
@@ -676,25 +695,40 @@ body {
     padding: 20px;
   }
 
-  .payment-credit-form input,
-  .payment-input-row {
-    width: 100% !important;
+  .payment-credit-form input {
+    width: 99% !important;
+    height: 55px;
     flex-direction: column;
+    font-size: 12px;
+    color: var(--Secondary-300, #90A3BF);
+
+font-size: 14px;
+margin-left: 4px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; 
+letter-spacing: -0.28px;
   }
 
-  .payment-input-row {
-    flex-direction: column;
-    width: 100%;
-    margin-top: 20px;
+  .payment-input-row label{
+    margin-left: 10px;
+  }
+
+
+ 
+
+  .payment-input-row1 label{
+    margin-left: 10px;
   }
 
   .confirm-container {
     width: 100%;
     padding: 20px;
+
   }
 
   .payment-visa-container {
-    margin-top: 60vh;
+    margin-top: 66vh;
     width: 422px;
     height: 902px;
     margin-left: -45px;
@@ -711,6 +745,12 @@ body {
     flex-shrink: 0;
   }
 
+   .payment-credit-img {
+    margin-left: -90px;
+    margin-top: 30px;
+    text-align: center;
+  }
+
   .payment-credit-name {
     display: flex;
     width: 200px;
@@ -718,20 +758,32 @@ body {
     flex-direction: column;
     justify-content: center;
     font-size: 16px;
+    margin-top: -5px;
   }
 
-  .payment-input-row1 {
-    width: 360px;
-    height: 484px;
-
-    margin-top: 100px;
-    flex-direction: column;
+  .payment-credite-ratio{
+    margin-top: -5px;
   }
+
+  
+.payment-input2{
+  font-size: 12px;
+}
+
+.payment-input{
+  font-size: 12px;
+}
+
+.payment-input-drop{
+  font-size: 12px;
+}
+
+  
 
   .payment-payment-option {
     height: 60px;
     width: 380px;
-    margin-top: -5px;
+    margin-top: -10px;
   }
 
   .payment-payment-options {
@@ -772,25 +824,31 @@ body {
   }
 
   .payment-section-title1 {
-    font-size: 25px;
+   color: var(--Secondary-500, #1A202C);
+
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; 
+letter-spacing: -0.32px;
   }
 
   .payment-subtext-rent {
-    font-size: 12px;
-    font-weight: 500;
+  color: var(--Secondary-300, #90A3BF);
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 160%; 
   }
   
 
-  .payment-apply-btn {
-    height: 45px;
-    width: 100px;
-    font-size: 14px;
-  }
+  
 
   .payment-subtext {
-    font-size: 12px;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 400;
     color: #858c96;
+
   }
 
 .confirm-privacy-footer{
@@ -812,7 +870,8 @@ body {
   }
 
   .payment-price-details {
-    padding: 20px;
+    padding: 30px;
+    
   }
 
   .payment-input-grid-3 {
@@ -827,5 +886,6 @@ body {
     flex-direction: column;
     width: 100%;
     gap: 10px;
+
   }
 }

@@ -29,7 +29,6 @@ const DashBoardSideNavbar = () => {
       </div>
 
       <div className="menu-section2">
-        <h4 className="menu-title">PREFERENCES</h4>
         <ul className="menu-list">
           <li className="menu-item">
             <span className="icon"><i class="ri-settings-line"></i></span> Settings

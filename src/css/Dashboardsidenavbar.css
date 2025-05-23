@@ -13,8 +13,8 @@ height:850px;
   border-radius: 5px;
 }
 
-.menu-section {
-  margin-bottom: 30px;
+.menu-section2 {
+  margin-bottom: -40px;
   margin-left: -10px;
 }
 
@@ -27,7 +27,6 @@ letter-spacing:     2px;
 width: 100px;
 color: rgba(148, 167, 203, 0.40);
 height: 16px;
-margin-top: 5px;
 }
 
 .menu-list {
@@ -64,13 +63,13 @@ height: 28px;
 .menu-item:hover {
   background-color: #e6e7ea;
   color: #3b49df;
-  padding: 10px 15px;
+  padding: 10px 10px;
 }
 
 .menu-item.active {
   background-color: #3563E9;
   color: white;
-  font-weight: 00;
+  font-weight: 500;
   width: 254px;
 height: 56px;
 flex-shrink: 0;

@@ -5,8 +5,11 @@ import "../css/Home.css";
 import BookingSection from "./BookingSection";
 import PopularCars from "../components/PopularCars";
 import Footer from "./Footer";
+import { useNavigate } from 'react-router-dom';
 
 const Home = () => {
+
+ 
   return (
 
     <div className="
@@ -27,7 +30,8 @@ const Home = () => {
           <p>
             Providing cheap car rental services <br /> and safe and comfortable facilities.
           </p>
-          <button className="rental-btn1">Rental Car</button>
+          <button className="rental-btn1"> Rental Car</button>
+
           <img src="/images/image 8.png" alt="Gray Car" />
         </div>
       </div>

@@ -206,9 +206,8 @@ export default function payment() {
                 </label>
                 <input type="text" id="expiryDate" placeholder="DD / MM / YY" />
               </div>
-            </div>
 
-            <div className="payment-input-row1">
+
               <div>
                 <label className="payment-label-card" htmlFor="cardHolder">
                   Card Holder
@@ -223,7 +222,13 @@ export default function payment() {
                 <input type="text" id="cvc" placeholder="CVC" />
               </div>
             </div>
+
+            <div className="payment-input-row1">
+              
+            </div>
           </div>
+
+
 
           <label className="payment-payment-option">
             <input type="radio" name="payment" value="paypal" />

@@ -1,7 +1,14 @@
 import React from "react";
 import "../css/popularCars.css";
+import { useNavigate } from "react-router-dom";
 
 const CarCard = ({ car }) => {
+
+   const navigate = useNavigate();
+
+    const handleClick = () => {
+    navigate('/payment'); 
+  };
   return (
     <div className="car-card-container">
       <div className="car-card">
@@ -30,7 +37,7 @@ const CarCard = ({ car }) => {
 
         <div className="car-price">
           ${car.price }/day{" "}
-          <button className="rent-button">Rent Now</button>
+          <button className="rent-button" onClick={handleClick}>Rent Now</button>
         </div>
         
       </div>

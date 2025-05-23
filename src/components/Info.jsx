@@ -1,10 +1,20 @@
 import React from "react";
 import SideNavbar from "./SideNavbar";
 import "../css/Sidenavbar.css";
+import Navbar from "../components/Navbar"
 import "../css/info.css";
 import RecentCars from "./RecentCars";
+import { useNavigate } from "react-router-dom";
+
+
 
 const Info = () => {
+
+   const navigate = useNavigate();
+
+    const handleClick = () => {
+    navigate('/payment'); 
+  };
   return (
     <div className="cars-details">
       <SideNavbar />
@@ -78,7 +88,7 @@ const Info = () => {
             <div className="price-section">
               <span className="discounted">$80.00</span>/days{" "}
               <span className="original">$100.00</span>
-              <button className="rent-button1">Rent Now</button>
+              <button className="rent-button1" onClick={handleClick}>Rent Now</button>
             </div>
           </div>
         </div>

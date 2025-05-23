@@ -148,7 +148,7 @@ html,body{
     align-items: flex-start;
   }
   .logo{
-    margin-left: -80px;
+    margin-left: -50px;
     color: #3563E9;
     display: flex;
 width: 108px;
@@ -159,7 +159,7 @@ letter-spacing: -0.72px;
 line-height: 150%;
   }
   .footer-brand p{
-    margin-left: -80px;
+    margin-left: -50px;
     width: 216px;
     font-size: 12px;
     font-weight: 500;
@@ -171,7 +171,7 @@ letter-spacing: -0.12px;
 
   .footer-links{
     display: flex;
-     margin-left: -80px;
+     margin-left: -50px;
       color: #90A3BF;
   }
   .footer{
@@ -194,7 +194,7 @@ letter-spacing: -0.12px;
   justify-content: space-around;
   margin-top: -180px;
   margin-left: -90px;
- width: 150px;
+ width: 180px;
 font-size: 12px;
 font-weight: 600;
 letter-spacing: -0.24px;
@@ -202,7 +202,7 @@ letter-spacing: -0.24px;
 .footer-bottom p{
   margin-top: 50px;
   width: 300px;
- margin-left: -80px;
+ margin-left: -50px;
 }
 
 .footer{
