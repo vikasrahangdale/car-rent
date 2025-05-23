@@ -194,14 +194,15 @@ margin-top: 50px;
     margin-top: 60px;
     padding: 10px;
 
-    background: #ffffff;
+   background-color: #f9fafb;
     
   }
 
   .rc-car-card {
     width: 330px;
+    height: 286px;
     margin-left: 42px;
-    background: #f8f5f5;
+   background-color: #fff;
   }
   .rc-header a{
     width: 60px;
@@ -212,9 +213,52 @@ margin-top: 50px;
     margin-right: 10px;
   }
   .rc-top h3{
-    width: 50%;
+    width: 120px;
+height: 20px;
+color: var(--Secondary-500, #1A202C);
+
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 24px */
+letter-spacing: -0.32px;
   }
   .rc-type{
     margin-top: 13px;
   }
+
+  .rc-info{
+   color: var(--Secondary-300, #90A3BF);
+
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.24px;
+margin-left: 15px;
+padding: 0px -10px;
+margin-top: -10px;
+  }
+
+
+  .rc-price-section{
+    color: var(--Secondary-500, #1A202C);
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.16px;
+padding: 0px 10px;
+  }
+
+  .rc-car-img{
+
+
+width: 180px;
+height: 56px;
+margin-left: 50px;
+  }
+
+
+
 }

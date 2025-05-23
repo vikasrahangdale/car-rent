@@ -13,10 +13,10 @@ const Info = () => {
         <div className="flex-div">
           <div className="left-section">
             <h2>
-              Sports car with the best <br /> design and acceleration
+              Sports car with the best design and acceleration
             </h2>
             <p>
-              Safety and comfort while driving a <br />
+              Safety and comfort while driving a 
               futuristic and elegant sports car
             </p>
             <img

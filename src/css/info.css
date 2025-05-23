@@ -3,6 +3,7 @@
   height: 300vh;
   width: 100vw;
   flex-direction: column;
+  background-color: #f9fafb;
   padding: 1.5rem;
   font-family: 'Segoe UI', sans-serif;
   border-radius: 12px;
@@ -281,6 +282,11 @@ padding-top: 20px;
     margin-left: -23px;
     margin-right: auto;
     margin-top: -200px;
+    background-color: #f9fafb;
+  }
+
+  .cars-details{
+    background-color: #f9fafb;
   }
 
   .flex-div {
@@ -335,70 +341,112 @@ padding-top: 20px;
 
 @media screen and (max-width: 768px) {
   .left-section h2 {
-    font-size: 24px;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 500;
+    width: 300px;
+height: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 24px */
+letter-spacing: -0.35px;
   }
 
   .left-section p {
     font-size: 12px;
-    width: auto;
+    width: 216px;
+    font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.30px;
   }
 
   
 
   .main-car-img {
-    width: 100%;
-    height: auto;
-    margin: 20px auto;
+   width: 190px;
+   height: 60px;
+   flex-shrink: 0;
+   margin: 20px auto;
+
   }
 
   .right-section {
-    width: 100%;
+    width: 89%;
     margin-top: 40px;
+    margin-left: -5px;
   }
   
   .right-section h3{
-    margin-left: 30px;
+   width: 174px;
+height: 24px;
+font-size: 20px;
+margin-left: 10px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; 
+letter-spacing: -0.6px;
   }
 
   .rating{
-    margin-left: 30px;
-  }
+    margin-left: 6px;
+font-size: 13px;  }
 
   .description {
-   font-size: 14px;
+font-size: 14px;
 font-style: normal;
+color: var(--Secondary-300, #90A3BF);
 font-weight: 400;
-line-height: 200%; /* 24px */
-letter-spacing: -0.24px;
-width: 292px;
-margin-left: 30px;
+line-height: 200%; 
+letter-spacing: 0.5px;
+width: 295px;
+margin-left: 10px;
   }
 
   .specs {
     color: #000;
-    margin-left: 30px;
+    width: 400px;
+height: 16px;
+    margin-left: 10px;
+    font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.24px;
+color: var(--Secondary-300, #90A3BF);
+  }
+
+  .specs strong{
+    color: #000;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-left: 10px;
   }
 
   .price-section{
     display: flex;
     margin-left: 30px;
+    margin-top: 130px;
   }
 
   .rent-button1{
     display: flex;
-width: 6px;
-height: 45px;
+width: 140px;
+height: 56px;
+padding: 0px 20px;
 justify-content: center;
 align-items: center;
 gap: 8px;
 flex-shrink: 0;
-margin-left: 40px;
+margin-left: 10px;
 margin-top: -10px;
+font-size: 16px;
+font-weight: 700;
+
   }
 
   .discounted{
-    margin-left: 10px;
+    margin-left: -20px;
     margin-top: 0px;
   }
 

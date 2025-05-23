@@ -188,13 +188,27 @@ height: 240px;
     width: 150px;
     height: 20px;
     margin-left: 32px;
+
+    color: var(--Secondary-500, #1A202C);
+
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; 
+letter-spacing: -0.32px;
   }
 
   .popular .car-type {
     display: flex;
     width: 96px;
     height: 20px;
-    font-size: 12px;
+    color: var(--Secondary-300, #90A3BF);
+
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.24px;
   }
 
   .popular .car-image {
@@ -220,16 +234,18 @@ height: 240px;
 
   .popular .car-price {
     margin-left: -280px;
-    font-size: 14px;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 500;
+    
     color: #000;
   }
 
   .popular .rent-button {
-    width: 85px;
-    height: 36px;
-    margin-left: -230px;
-    font-size: 12px;
+    width: 100px;
+    height: 40px;
+    font-weight: 500;
+    margin-left: -270px;
+    font-size: 14px;
   }
 
   .car-image {
@@ -242,11 +258,19 @@ height: 240px;
     margin-left: 160px;
     font-size: 12px;
     font-weight: 600;
-    width: 125px;
-    height: 40px;
+    width: 135px;
+    height: 50px;
     padding: 0px 20px;
-    margin-left: 130px;
+    margin-left: 115px;
     margin-top: -30px;
+    color: var(--Primary-0, #FFF);
+text-align: center;
+
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -0.24px;
   }
 
   .card h2 p {
@@ -256,8 +280,51 @@ height: 240px;
   .car-specs {
     flex-direction: column;
     margin-top: -130px;
-    margin-left: 210px;
+    margin-left: 240px;
     color: #6b7280;
+    color: var(--Secondary-300, #90A3BF);
+
+font-size: 12px;
+
+
+display: flex;
+width: 80px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.24px;
+padding: 0px 0px;
+  }
+
+  .recommended-section .car-name{
+     display: flex;
+    width: 150px;
+    height: 20px;
+    margin-left: 10px;
+
+    color: var(--Secondary-500, #1A202C);
+
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; 
+letter-spacing: -0.32px;
+  }
+
+
+
+  .recommended-section .car-type{
+      display: flex;
+    width: 96px;
+    height: 20px;
+    color: var(--Secondary-300, #90A3BF);
+
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.24px;
+margin-left: -20px;
   }
   .car-price p {
     margin-right: 45px;

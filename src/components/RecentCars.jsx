@@ -82,9 +82,9 @@ const CarCard = ({ car }) => {
 
        <img src={car.image} alt={car.name} className="rc-car-img" />
       <div className="rc-info">
-        <span>⛽ {car.fuel}</span>
-        <span>⚙️ {car.transmission}</span>
-        <span>👥 {car.people}</span>
+        <span><i className="ri-gas-station-fill"></i> {car.fuel}</span>
+        <span><i className="ri-car-fill"></i> {car.transmission}</span>
+        <span><i className="ri-group-fill"></i> {car.people}</span>
       </div>
       <div className="rc-price-section">
         <h4>

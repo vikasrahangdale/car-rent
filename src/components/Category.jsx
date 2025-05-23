@@ -185,6 +185,7 @@ image: "/images/pop car1.png",
           <option>Select your city</option>
         </select>
       </div>
+
       <div className="cat-input-group">
         <label>Date</label>
         <input type="date" />
