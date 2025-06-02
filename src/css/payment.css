@@ -48,7 +48,7 @@ body {
   font-weight: 700;
   margin-bottom: 10px;
   margin-top: -15px;
-  margin-left: 1px;
+  margin-left: 10px;
 }
 
 .payment-section-title1 {
@@ -281,6 +281,8 @@ body {
   font-weight: 500;
   color: #90a3bf;
   margin-top: -10px;
+  margin-left: 20px;
+  width: 300px;
 }
 
 .payment-apply-btn {
@@ -300,6 +302,7 @@ body {
   font-size: 18px;
   padding: 10px 0;
   font-size: 20px;
+  width: 320px;
 }
 
 .payment-price-details p {
@@ -335,6 +338,7 @@ height: 750px;
   font-size: 14px;
   color: #90a3bf;
   font-weight: 500;
+  display: none;
 }
 
 .subtext-rental-date {
@@ -599,10 +603,10 @@ height: 750px;
 
   .payment-form-wrapper {
     flex-direction: column;
-    margin-left: 0px;
+    margin-left: -15px;
     margin-top: 10px;
     padding: 20px;
-    width: 400px;
+    width: 350px;
     height: 950px;
   }
   .payment-inner-container {
@@ -628,10 +632,13 @@ height: 750px;
     height: 280px;
     margin-top: -20px;
   }
+  .payment-promo{
+    margin-left: -20px;
+  }
 
   .payment-promo input {
     padding: 5px 0px;
-    width: 250px;
+    width: 220px;
     height: 50px;
     padding-left: 10px;
     flex-shrink: 0;
@@ -639,12 +646,13 @@ height: 750px;
 
   .payment-total-price{
     margin-top: 30px;
+    margin-left: 0px;
   }
 
   .payment-apply-btn {
     height: 50px;
     padding: auto;
-    width: 250px;
+    width: 100px;
     font-size: 10px;
     font-weight: 500;
     letter-spacing: 1px;
@@ -652,9 +660,9 @@ height: 750px;
 
   .payment-form-section {
     flex-direction: column;
-    width: 380px;
+    width: 360px;
     height: 425px;
-    margin-left: 3px;
+    margin-left: 0px;
   }
 
   .payment-summary-card {
@@ -677,18 +685,24 @@ line-height: 140%; /* 28px */
   width: 327px;
 height: 424px;
     margin-top: -50px;
-    margin-left: -30px;
   }
 
-  .payment-input-grid,
-  .payment-input-grid-3 {
-    margin-top: 1px;
+  .payment-input-grid {
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 10px;
   }
+
+  .payment-input-grid-3{
+    width: 380px;
+    margin-left: 5px;
+  }
+
 
   .payment-input-group {
-    width: 190px;
+    width: 350px;
    
-    margin-right: -20px;
+    margin-right: 20px;
   }
 
   .payment-price-details {
@@ -696,7 +710,7 @@ height: 424px;
   }
 
   .payment-credit-form input {
-    width: 99% !important;
+    width: 88% !important;
     height: 55px;
     flex-direction: column;
     font-size: 12px;
@@ -728,7 +742,7 @@ letter-spacing: -0.28px;
   }
 
   .payment-visa-container {
-    margin-top: 66vh;
+    margin-top: 160vh;
     width: 422px;
     height: 902px;
     margin-left: -45px;
@@ -782,7 +796,7 @@ letter-spacing: -0.28px;
 
   .payment-payment-option {
     height: 60px;
-    width: 380px;
+    width: 320px;
     margin-top: -10px;
   }
 
@@ -799,7 +813,7 @@ letter-spacing: -0.28px;
 
   .confirm-checkbox-item {
     margin-top: 20px;
-    width: 380px;
+    width: 320px;
     height: 65px;
     flex-shrink: 0;
     font-size: 14px;
@@ -820,7 +834,9 @@ letter-spacing: -0.28px;
     height: 40px;
   }
   .confirm-step {
-    margin-top: -35px;
+    margin-top: -30px;
+    display: none;
+    
   }
 
   .payment-section-title1 {

@@ -175,7 +175,7 @@ height: 240px;
     border-radius: 10px;
     display: flex;
     align-items: center;
-    margin-left: -55px;
+    margin-left: -77px;
    
   }
   .popular .car-card {
@@ -348,7 +348,7 @@ margin-left: -20px;
   }
  
   .car-rental-ui h5{
-    margin-left: 310px;
+    margin-left: 280px;
     font-size: 12px;
     font-weight: 600;
   }
@@ -358,6 +358,8 @@ margin-left: -20px;
     font-size: 12px;
     font-weight: 600;
   }
+
+  
 
   .popular .car-list {
     flex-wrap: nowrap;

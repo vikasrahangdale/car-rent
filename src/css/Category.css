@@ -272,7 +272,7 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 30px;
-    margin-left: -70px;
+    margin-left: -80px;
     margin-top: -60px;
   }
 
@@ -341,7 +341,7 @@ body {
 
   .cat-card {
     width: 340px;
-    margin-left: -660px;
+    margin-left: -705px;
     height: 240px;
   }
 

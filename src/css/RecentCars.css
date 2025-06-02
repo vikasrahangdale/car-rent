@@ -201,7 +201,7 @@ margin-top: 50px;
   .rc-car-card {
     width: 330px;
     height: 286px;
-    margin-left: 42px;
+    margin-left: 12px;
    background-color: #fff;
   }
   .rc-header a{
@@ -226,7 +226,9 @@ letter-spacing: -0.32px;
   .rc-type{
     margin-top: 13px;
   }
-
+.rc-rent-btn{
+  margin-top: 20px;
+}
   .rc-info{
    color: var(--Secondary-300, #90A3BF);
 
